@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "DISTANCE v0.1"
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Yim"
+    given-names: "Kangbin"
+title: "DISTANCE: A Philosophical Framework for the Direction of the Universe"
+version: "0.1"
+date-released: 2026-05-24
