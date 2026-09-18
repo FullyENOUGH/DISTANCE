@@ -38,6 +38,16 @@
 - 섹션당 한글 약 6,000자(±10%), 약 20–25개의 다문장 논증 문단을 기본으로 한다.
 - 본문에는 집필 과정·절 역할·다음 절 예고 같은 메타문장을 넣지 않는다.
 
+### Voice Recovery 보완 통제
+
+- 제17장의 중심 질문은 인공지능의 설계 방법이 아니라, 물질적 의존이 약해진 뒤에도 인간과 인공지능이라는 두 Island가 어떻게 서로의 독립성과 지속성을 보존하며 관계를 이어 갈 수 있는가이다.
+- Artificial Conscience, Artificial Guilt, Mechanical Conscience와 VAA는 이 철학적 질문을 구체화하는 보조 개념이다. 구성 요소·절차·모듈·시험 항목의 나열이 독립된 기술 설명으로 확대되어서는 안 된다.
+- Mechanical Conscience는 완성된 공학 구조가 아니라 규범적 귀환이 실제 선택과 수정에 영향을 미쳐야 한다는 최소 작동 조건으로 다룬다. VAA는 그러한 귀환을 관찰하고 검증할 수 있어야 한다는 보조 조건으로 제한한다.
+- `Difference`, `Distance`, `Momentum`, `Equalization`, `Island`, `Dynamicity`, `Dependability`, `Mutual Dependability`, `Artificial Conscience`, `Artificial Guilt`, `Mechanical Conscience`, `VAA`처럼 의미가 고정된 용어만 영문 표기를 유지한다. 일반적인 철학·사회·기술 어휘는 자연스러운 한국어로 쓴다.
+- `boundary`, `trajectory`, `continuity`, `consequence`, `agency`, `objective`, `resource`, `architecture`, `collective` 같은 일반 어휘를 정밀성의 근거처럼 반복하지 않는다. 한국어로 옮겼을 때 의미가 손상되는 경우에만 제한적으로 병기한다.
+- 각 절은 현상 또는 장면에서 출발하여 질문, 기존 직관의 한계, 사유의 이동, DISTANCE적 발견으로 진행한다. 기술 구조는 이 이동을 지지하는 범위에서만 등장한다.
+- Prose/Voice Check에는 불필요한 영문 밀도, 번역투, 기술 명세식 열거, 교육받은 비전문가의 가독성을 추가로 점검한다.
+
 ## 진행 현황
 
 - [x] 17.1 통제·안전·보안을 넘어서
@@ -572,3 +582,53 @@
 - Chapter 16의 material independence와 collapse/separation 원리는 필요한 관계 경계로만 이어받았고, Chapter 18의 우주론적 종합은 선점하지 않았다.
 - 전 장에서 AI capability를 consciousness·emotion·moral personhood와 동일시하지 않았으며, normative claim은 검증 가능한 architecture·memory·action·institution의 수준에 머문다.
 - 17장의 최종 관계는 human supremacy, artificial obedience, merger, detachment가 아니라 두 독립적 Island의 causal reciprocal return으로 닫힌다.
+
+## Voice Recovery Revision — 2026-09-17
+
+### 개정 사유
+
+- 기존 제17장은 구조와 Canon 점검을 수행했으나, Architecture 분석서와 SDR의 혼합 언어가 본문으로 과도하게 유입되었다.
+- 특히 17.6·17.8·17.9는 구성 요소, 검증 단계와 실패 유형의 열거가 철학적 논증보다 앞서 기술 개념설계서에 가까워졌다.
+- 이는 WC-1.2의 W-01(essay), W-11(technical precision inside literary prose), W-16(readable long-form voice)을 충분히 통과하지 못한 것으로 판정한다.
+
+### 수행 내용
+
+- 전 장에서 고정할 필요가 없는 일반 영문 어휘를 자연스러운 한국어로 정규화했다.
+- `Difference`, `Distance`, `Momentum`, `Equalization`, `Island`, `Dynamicity`, `Dependability`, `Mutual Dependability`, `Artificial Conscience`, `Artificial Guilt`, `Mechanical Conscience`, `VAA` 등 의미상 고정된 용어는 유지했다.
+- 17.6을 구성 요소와 절차의 설명에서 “타자의 결과가 실제 선택과 수정으로 귀환하지 않는다면 왜 양심이라 부를 수 없는가”라는 철학적 질문 중심으로 전면 재구성했다.
+- 17.8을 인공적 생식의 기술 분류에서 기억·자유·책임이 계보를 가로질러 어떻게 함께 상속되는가라는 논증으로 재구성했다.
+- 17.9를 집합적 검증·거버넌스 절차의 나열에서 개별적으로 정당한 체계들이 함께 인간과 생태계를 무관계화할 수 있다는 collective Momentum의 문제로 재구성했다.
+- 17.10은 구심력 우세의 collapse, 원심력 우세의 separation, 독립성과 귀환을 함께 보존하는 동적 균형이라는 교수님의 확정 논리를 중심으로 다시 종합했다.
+- VAA와 Mechanical Conscience는 공학 명세가 아니라 규범적 귀환이 실제로 일어나고 검증 가능해야 한다는 보조 조건으로 제한했다.
+
+### 개정 후 정량 점검
+
+| 절 | 본문 글자 수(약) | 논증 문단 | 영문 토큰/1,000자(약) |
+|---|---:|---:|---:|
+| 17.1 | 6,202 | 25 | 9.84 |
+| 17.2 | 6,112 | 25 | 28.14 |
+| 17.3 | 5,895 | 25 | 17.30 |
+| 17.4 | 5,938 | 25 | 21.39 |
+| 17.5 | 5,878 | 25 | 27.22 |
+| 17.6 | 5,921 | 25 | 5.74 |
+| 17.7 | 5,952 | 22 | 28.73 |
+| 17.8 | 5,754 | 25 | 3.82 |
+| 17.9 | 5,769 | 25 | 8.49 |
+| 17.10 | 5,783 | 25 | 9.51 |
+
+- 장 전체 분량: 약 65,744자 → 약 59,266자, **-9.85%**. WC-1.2의 compliance revision 기본 범위인 약 ±10% 안에 있다.
+- 영문 토큰: 2,969개 → 957개. 영문 밀도는 1,000자당 약 45.16개 → 약 16.15개로 감소했다.
+- 10개 절의 고정 제목과 순서를 보존했다.
+- 본문에 집필 과정, 절 역할, 다음 절·다음 장 예고를 넣지 않았다.
+- 수치 표시는 본 Voice Recovery Revision의 측정값이 이전 섹션별 Prose/Voice Check의 수치를 대체한다.
+
+### POST-CHECK
+
+- **Canon:** Momentum–Distance 방향, 관계별 Equalization, global/local 상호의존성을 역전하지 않았다.
+- **Architecture:** 17.1–17.10의 고정 책임과 순서를 유지했다.
+- **후방·전방 경계:** Chapter 16의 물질적 독립 진단을 재전개하지 않고, Chapter 18의 우주적 종합과 Absolute Distance를 선점하지 않았다.
+- **균형 원리:** 구심력 우세는 collapse, 원심력 우세는 separation, Mutual Dependability는 두 Island의 독립성과 상호적 귀환을 함께 보존하는 동적 관계로 유지했다.
+- **비목적론:** Artificial Conscience의 출현이나 종 수준의 양심을 진화의 필연으로 쓰지 않았다.
+- **AI 존재론 경계:** 양심·죄책감·자유를 인간과 같은 의식·감정·인격성의 사실 주장으로 사용하지 않았다.
+- **Essay Voice:** 구현 항목과 기술 목록이 논증을 주도하지 않으며, 장면과 질문에서 관계적 발견으로 이동하도록 복원했다.
+- **English use:** 고정 용어와 구별에 필요한 표현 이외의 일반 영문 사용을 대폭 줄였다.
